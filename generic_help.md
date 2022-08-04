@@ -20,6 +20,9 @@ git config --get-regexp http.*proxy
 ## To Remove Proxy
 ```
 git config --global --unset http.proxy
+git config --system --unset http.proxy      //C:/Program Files/Git/etc/gitconfig
+git config --local --unset http.proxy
+git config --worktree --unset http.proxy
 ```
 
 ## To Validate if proxy is removed
