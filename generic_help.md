@@ -46,10 +46,10 @@ C:\Users\<user>\AppData\Local\Android\Sdk\emulator
 ```
 
 ## To Find the AVD names in your system
-````emulator.exe -list-avds```
+```emulator.exe -list-avds```
 
 ## Type the below command to open the AVD
 ```emulator.exe -avd "Pixel_5_API_33"```
 
 
-..
+.
