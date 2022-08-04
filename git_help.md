@@ -6,13 +6,12 @@ git config --global user.name "Remedy Karthick"
 ```
 # To Check the configured email and name
 
-``
-C:\KK\learn\REACTNATIVE>git config --global user.email
-OP: remkarthick@gmail.com
-
-C:\KK\learn\REACTNATIVE>git config --global user.name 
-OP: Remedy Karthick
-``
+```
+git config --global user.email
+OP: <mail_id>@<domain>
+git config --global user.name 
+OP: <First Name> <Last Name>
+```
 
 # Add Remote from Github
 
