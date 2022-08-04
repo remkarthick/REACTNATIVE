@@ -13,10 +13,7 @@ OP: <mail_id>@<domain>
 git config --global user.name 
 OP: <First Name> <Last Name>
 ```
-## To Check current Proxy
-```
-git config --get-regexp http.*proxy
-```
+
 ## To Remove Proxy
 ```
 git config --global --unset http.proxy      
@@ -29,8 +26,17 @@ git config --worktree --unset http.proxy
 ```
 
 ## To Validate if proxy is removed
+
+### Method 1
 ```
 git config --global --get http.proxy
+git config --system --get http.proxy
+git config --local --get http.proxy
+git config --worktree --get http.proxy
+```
+### Method 2
+```
+git config --get-regexp http.*proxy
 ```
 
 ## To Set a new Proxy
